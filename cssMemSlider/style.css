@@ -57,14 +57,10 @@ body{
 	width: 75%;	
 }
 
-.controls {
-	/* margin-left: -5px;	 */
-	width: 25%;
-	/* display: inline-flex; */
+.controls {	
+	width: 25%;	
 	display: flex;
 	justify-content: flex-end;
-	/* vertical-align: top;	 */
-	/* display: inline-block; */
 }
 
 .slides, .captures {	
@@ -201,7 +197,7 @@ input[name="point"] {
 	margin-left: -83.34%;
 }
 
-@media(max-width: 1024px) {
+@media(max-width: 960px) {
 	.slider-wrap {
 		padding: 10px 15px;
 		width: 95%;
@@ -229,9 +225,5 @@ input[name="point"] {
 	.slide-capture {		
 		font-size: 1rem;
 	}
-
-}
-
-@media(max-width: 1024px) {
 
 }
